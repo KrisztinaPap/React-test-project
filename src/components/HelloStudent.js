@@ -4,7 +4,7 @@ const HelloStudent = ( props ) => {
     return (
         <p>
             Hello&nbsp;
-            { props.name },
+            { props.name.toUpperCase() },
             Welcome to TECHCareers and its React unit!
             Their favourite unit is:&nbsp;
             { props.unit }
